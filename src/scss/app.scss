@@ -7,6 +7,16 @@
 body {
   background-color: $background;
 }
+.block1 {
+ ul {
+  li {
+    color: brown;
+  }
+  li:last-of-type {
+    color: grey;
+  }
+ }
+}
 
 .wrapper {
   width: calc(100vw - 100px);
