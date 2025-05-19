@@ -13,7 +13,7 @@ return (
   
 
   <div className="content">
-    <div className="container">
+    
     <Routes>
  <Route path="/" element={<Home />} />
  <Route path="/cart" element={<Cart />} />
@@ -22,7 +22,7 @@ return (
     </Routes>
     </div>
   </div>
-</div>
+
 );
   
 };
